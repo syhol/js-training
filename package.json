@@ -1,0 +1,36 @@
+{
+  "name": "js-training",
+  "version": "1.0.0",
+  "description": "Js Training",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test1": "jest --watch 01-reverse-an-array.js",
+    "test2": "jest --watch 02-split-a-string.js",
+    "test3": "jest --watch 03-join-a-string.js",
+    "test4": "jest --watch 04-reverse-a-string.js",
+    "test5": "jest --watch 05-add-one.js",
+    "test6": "jest --watch 06-add-ten.js",
+    "test7": "jest --watch 07-add-ten-to-all.js",
+    "test8": "jest --watch 08-trim-spaces-from-all.js",
+    "test9": "jest --watch 09-get-property-foo.js",
+    "test10": "jest --watch 10-get-property-foo-from-all.js",
+    "help": "cat README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syhol/js-training.git"
+  },
+  "keywords": [
+    "training"
+  ],
+  "author": "Simon Holloway <simon@syhol.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syhol/js-training/issues"
+  },
+  "homepage": "https://github.com/syhol/js-training#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}
